@@ -13,7 +13,6 @@ export default async function Page({ searchParams }) {
     // Query all blogs
     blogList = await Blog.find({}).lean();
   }
-  console.log("bloglist",blogList)
   return (
     <>
     <h1>Welcome to my Blog</h1>
