@@ -1,0 +1,12 @@
+name : First Workflow
+
+on : 
+ push
+
+jobs:
+ Next-Blog
+ #runner
+  runs-on ubuntu-latest
+  steps :
+       - name : Next-Blog
+         run : echo "Next-Blog"
