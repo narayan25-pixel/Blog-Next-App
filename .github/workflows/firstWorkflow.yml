@@ -4,9 +4,9 @@ on :
  push
 
 jobs:
- Next-Blog
+ Next-Blog:
  #runner
-  runs-on ubuntu-latest
-  steps :
+  runs-on : ubuntu-latest
+  steps:
        - name : Next-Blog
          run : echo "Next-Blog"
